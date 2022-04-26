@@ -1,0 +1,67 @@
+html {
+    background-color: silver;
+}
+h1 {
+    color: gold;
+    background-color: red;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 9px;
+    text-align: center;
+}
+main{
+    column-count: 2;
+    column-rule-style:dotted;
+    column-rule-color: black;
+    column-gap: 4%;
+    column-width: 48%;
+}
+.essays{
+    display: inline-block;
+    text-align: center;
+}
+.letters{
+    text-align: center;
+}
+ol{
+    list-style-position: outside;
+    text-align: left;
+    line-height: 1.5em;
+    word-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media screen and (max-width: 480px) {
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .essays{
+        margin: 0 0 0 0;
+        text-align: left;
+    }
+    .letters{
+        margin: 0 0 0 0;
+        text-align: left;
+    }
+    h3 {
+        text-align: center;
+    }
+    h1 {
+        padding: 0%;
+    }
+}
+button{
+    padding: 10px;
+    background-color: royalblue;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5%;
+    font-family: monospace;
+}
+.displayers {
+    font-size: 19px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}

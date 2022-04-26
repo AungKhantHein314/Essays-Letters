@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essays-Letters</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+<body>
+    <h1 class="h1">Essays-Letters</h1>
+<main>
+    <div class="essays">
+        <h3>Essays</h3>
+        <ol id="essays"></ol>
+    </div>
+    <div class="letters">
+        <h3>Letters</h3>
+        <ol id="letters"></ol>
+    </div>
+</main>
+<br><hr><br>
+</body>
+<footer>
+
+    <pre id="randomEssay" class="displayers">Random Essay</pre>
+    <button onclick="essayRandom()">Choose an Essay</button>
+
+    <br><hr><br>
+
+    <pre id="randomLetter" class="displayers">Random Letter</pre>
+    <button onclick="letterRandom()">Choose a Letter</button>
+<a href="./essay.html" class="btn btn-primary">Go to last essay</a>
+</footer>
+<div id="test"></div>
+<script src="index.js"></script>
+</html>
